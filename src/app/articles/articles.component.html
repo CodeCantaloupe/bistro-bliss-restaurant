@@ -1,0 +1,22 @@
+<div class="container">
+    <h1 class="playfair">Our Blog & Articles</h1>
+    <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+    <div class="articles-container">
+        <a href="#">
+            <div class="article-card">
+                <img src="./article-image- (1).jpg" alt="article image">
+                <p>January 3, 2024</p>
+                <h2>How to prepare a delicious gluten-free sushi</h2>
+            </div>
+        </a>
+        @for (article of articles; track $index) {
+            <a href="#">
+                <div class="article-card">
+                    <img [src]="article.thumbnail" alt="article image">
+                    <p>{{article.date}}</p>
+                    <h2>How to prepare a {{article.title}}</h2>
+                </div>
+            </a>
+        }
+    </div>
+</div>

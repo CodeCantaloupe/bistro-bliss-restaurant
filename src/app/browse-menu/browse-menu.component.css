@@ -54,6 +54,10 @@ img {
     font-weight: bold;
 }
 
+.menu-card a:hover {
+    color: crimson;
+}
+
 .menu-card p {
     color: gray;
     font-weight:300;
