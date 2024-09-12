@@ -36,8 +36,8 @@
 
 .hero-section div a:nth-child(1) {
     color: white;
-    background-color: #AD343E;
-    border: 1.5px solid #AD343E;
+    background-color: var(--crimson-color);
+    border: 1.5px solid var(--crimson-color);
 }
 
 .hero-section div a:nth-child(2) {
