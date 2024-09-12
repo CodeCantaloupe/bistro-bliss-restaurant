@@ -1,0 +1,80 @@
+* {
+    --black-color: #474747;
+}
+
+.active {
+    background-color: #DBDFD0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100vw;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    position: sticky;
+}
+
+.top-nav > div img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.top-nav {
+    background-color: var(--black-color);
+    color: white;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.top-nav > div {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin: 0 10px 0 20px;
+}
+
+.bot-nav {
+    background-color: white;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+#logo-title {
+    font-family: "Playfair Display", serif;
+    color: var(--black-color);
+    font-size: 42px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-logo {
+    display: flex;
+    text-wrap: nowrap;
+}
+
+.nav-logo img {
+    height: 55px;
+}
+
+.nav-links a{
+    color: var(--black-color);
+    padding: 4px 16px;
+    border-radius: 10px;
+}
+
+.nav-book-btn{
+    border: 1.5px solid var(--black-color);
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 118px;
+}
