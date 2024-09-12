@@ -12,8 +12,9 @@ import { Component } from '@angular/core';
 export class ArticlesComponent {
   articles : Article[] = []
 
-  ngOnInit(): void {
-    fetch('https://tasty.p.rapidapi.com/recipes/list?from=0&size=5&tags=under_30_minutes', {
+  getData = async () => {
+    console.log("API called")
+    await fetch('https://tasty.p.rapidapi.com/recipes/list?from=0&size=5&tags=under_30_minutes', {
       method: 'GET',
       headers: {
         'x-rapidapi-host': 'tasty.p.rapidapi.com',
