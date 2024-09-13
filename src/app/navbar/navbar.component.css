@@ -64,6 +64,14 @@ img {
 .nav-book-btn{
     border: 1.5px solid var(--black-color);
     padding: 12px 24px;
+    color: var(--black-color-2);
     background-color: white;
     border-radius: 118px;
+    transition: background-color 0.25s ease;
+}
+
+.nav-book-btn:hover{
+    color: white;
+    background-color: var(--black-color-2);
+    transition: background-color 0.25s ease;
 }
