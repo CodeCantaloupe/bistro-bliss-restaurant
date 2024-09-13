@@ -58,3 +58,14 @@
     /*Add animation here*/
     transition: background-color 0.25s ease;
 }
+
+/*Add Media query*/ 
+@media screen and (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 50px;
+    }
+
+    .container {
+        background-position: center;
+    }
+}
