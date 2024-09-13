@@ -19,6 +19,7 @@ html, body {
     height: 100%;
     scrollbar-width: thin;
     scrollbar-color: var(--black-color) white;
+    scroll-behavior: smooth;
 }
 
 body {

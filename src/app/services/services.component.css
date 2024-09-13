@@ -1,0 +1,48 @@
+.container {
+    padding: 50px 152px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+h2 {
+    margin: 20px 0 15px 0;
+}
+
+.service-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .services-container:last-child {
+        margin-bottom: 50px;
+    }
+}

@@ -32,7 +32,7 @@ img {
 
 .bot-nav {
     background-color: white;
-    height: 84px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,10 +55,15 @@ img {
     height: 55px;
 }
 
+.navlinks {
+    padding: 10px;
+}
+
 .nav-links a{
     color: var(--black-color);
-    padding: 4px 16px;
-    border-radius: 10px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    display: inline-block;
 }
 
 .nav-book-btn{
