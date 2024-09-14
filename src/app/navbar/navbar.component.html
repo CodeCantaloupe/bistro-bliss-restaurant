@@ -48,11 +48,11 @@
       <p id="logo-title" class="playfair">Bistro Bliss</p>
     </div>
     <div class="nav-links">
-      <a routerLink="/"         (click)="active(1)" [class.active]="btnNum == 1">Home</a>
-      <a routerLink="/about"    (click)="active(2)" [class.active]="btnNum == 2">About</a>
-      <a routerLink="/menu"     (click)="active(3)" [class.active]="btnNum == 3">Menu</a>
-      <a routerLink="/articles" (click)="active(4)" [class.active]="btnNum == 4">Pages</a>
-      <a routerLink="/contact"  (click)="active(5)" [class.active]="btnNum == 5">Contact</a>
+      <a routerLink="/home"     routerLinkActive="active">Home</a>
+      <a routerLink="/about"    routerLinkActive="active">About</a>
+      <a routerLink="/menu"     routerLinkActive="active">Menu</a>
+      <a routerLink="/articles" routerLinkActive="active">Pages</a>
+      <a routerLink="/contact"  routerLinkActive="active">Contact</a>
     </div>
     <a class="nav-book-btn" href="#" role="button">Book a Table</a>
   </div>

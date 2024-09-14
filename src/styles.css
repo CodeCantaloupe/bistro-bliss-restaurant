@@ -5,6 +5,7 @@
     --black-color: #474747;
     --black-color-2: #2C2F24;
     --crimson-color: #AD343E;
+    --white-ish-color: #DBDFD0;
 }
 
 * {
@@ -33,6 +34,12 @@ h1,h2,h3,h4,h5,h6,p:hover {
 a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+
+p {
+    color: #495460;
+    font-size: 18px;
 }
 
 .playfair {

@@ -1,0 +1,121 @@
+/*Utility Classes*/
+.menu-options a.active {
+    color: white;
+    background-color: var(--crimson-color);
+    border: 1.5px solid var(--crimson-color);
+}
+
+/*Menu Component*/
+.container {
+    padding: 50px 152px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container > p {
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 70px;
+}
+
+.menu-options a {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: 1.5px solid var(--black-color);
+    min-width: 150px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-item-card {
+    border: 1.5px solid var(--white-ish-color);
+    border-radius: 12px;
+}
+
+.menu-item-card img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.menu-item-card div {
+    padding: 30px;
+}
+
+.menu-item-card div :nth-child(1) {
+    color: var(--crimson-color);
+}
+
+.menu-item-card div :nth-child(2) {
+    font-size: 20px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recipe-name {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 1040px) {
+    .menu-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .menu-options {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 55px;
+    }
+
+    .menu-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .menu-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
