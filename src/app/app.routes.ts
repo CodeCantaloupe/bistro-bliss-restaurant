@@ -3,6 +3,7 @@ import { ArticlesComponent } from './articles/articles.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { BookComponent } from './book/book.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
     {
@@ -25,10 +26,11 @@ export const routes: Routes = [
     {
         path: "book",
         component: BookComponent,
-    }
-    // {
-    //     path: 'contact',
-    // },
+    },
+    {
+        path: 'contact',
+        component: ContactComponent,
+    },
     // {
     //     path: 'about',
     // }
